@@ -17,6 +17,8 @@
 #include <HMC58X3.h>
 #include <MS561101BA.h>
 
+//#define DEBUG
+#include "DebugUtils.h"
 #include "FreeIMU.h"
 
 // change this to match your SD shield or module;
