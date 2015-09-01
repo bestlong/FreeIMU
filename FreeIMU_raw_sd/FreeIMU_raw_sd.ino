@@ -72,7 +72,7 @@ void loop() {
     Serial.println("");
   }
 
-  logFile = SD.open("datalog.txt", FILE_WRITE);
+  logFile = SD.open("RAWDATA.LOG", FILE_WRITE);
   if (logFile) {
     logFile.print(time);
     logFile.print(",");
